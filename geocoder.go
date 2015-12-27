@@ -4,10 +4,10 @@ package geocoder
 //  geo := Geocoder{key: "......"}
 
 /* This will return a JSON reponse */
-//  json := geo.getJSON("Tokyo, Japan")
+//  json := geo.GetJSON("Tokyo, Japan")
 
 /* This will return a Response struct as seen below */
-//  response := geo.decodeJSON("zipcode M2H 2G6")
+//  response := geo.DecodeJSON("zipcode M2H 2G6")
 
 import (
 	"encoding/json"
